@@ -24,5 +24,5 @@ The player can move left, right, up and down. Use your keyboard for this.
 
 ## Contributing
 
-:sunglasses: Help is always welcome, please just lint the files using the default linters setup. I use the (Beautify)[https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify] VS Code extension.
+:sunglasses: Help is always welcome, please just lint the files using the default linters setup. I use the [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) VS Code extension.
 
