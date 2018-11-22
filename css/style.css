@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(209, 106, 106);
+}
+
+p {
+    font-size: 1.5em;
+    color: lightslategray;
+}
