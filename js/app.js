@@ -79,7 +79,7 @@ Player.prototype.reset = function () {
 // Update the player's position
 Player.prototype.update = function () {
     // If the player reaches the end (water)
-    if (player.y < 1) {
+    if (this.y < 1) {
         this.reset();
         score++;
         scoreDiv.innerHTML = score;
