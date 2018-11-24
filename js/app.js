@@ -89,9 +89,6 @@ class Enemy extends Character {
 class Player extends Character {
     constructor(x, y) {
         super(PLAYER_POS_X, PLAYER_POS_Y, PLAYER_SPRITE);
-
-        // Number of pixels to move the player with each key press
-        this.speed = PLAYER_SPEED;
     }
 
     // To move back the player to default position
@@ -110,20 +107,19 @@ class Player extends Character {
         }
     };
 
-
     // Action depending the direction chosen by the user
     handleInput(direction) {
         if (direction == 'left' && this.x > 0) {
-            this.x -= this.speed;
+            this.x -= TILE_WIDTH;
         }
         if (direction == 'right' && this.x < 400) {
-            this.x += this.speed;
+            this.x += TILE_WIDTH;
         }
         if (direction == 'up' && this.y > 0) {
-            this.y -= this.speed;
+            this.y -= TILE_HEIGHT;
         }
         if (direction == 'down' && this.y < 430) {
-            this.y += this.speed;
+            this.y += TILE_HEIGHT;
         }
     };
 };
