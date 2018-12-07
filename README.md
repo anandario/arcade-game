@@ -1,6 +1,6 @@
 # Classic Arcade Game
 
-:black_joker: A classic arcade game Frogger to practice object-oriented programming.
+:space_invader: A classic arcade game Frogger to practice object-oriented programming.
 
 ## Install
 
